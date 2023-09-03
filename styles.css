@@ -1,0 +1,43 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilo para el encabezado de la tabla */
+th {
+  background-color: #3498db;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilo para las celdas de datos */
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Estilo para las filas pares */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilo para el botón "Ver Más" */
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+/* Estilo para el botón "Ver Más" al pasar el ratón */
+button:hover {
+  background-color: #2980b9;
+}
+body {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}

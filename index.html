@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tabla Clasificatoria Mundial 2026</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Tabla Clasificatoria Mundial 2026</h1>
+    <table>
+      <tr>
+        <th>Posición</th>
+        <th>Equipo</th>
+        <th>Bandera</th>
+        <th>Puntos</th>
+        <th>Partidos Jugados</th>
+        <th>Goles a Favor</th>
+        <th>Goles en Contra</th>
+        <th>Información extra</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Brasil</td>
+        <td>
+          <img
+            src="https://cdn.pixabay.com/photo/2017/01/31/16/44/banner-2025436_1280.png"
+            alt="Bandera del Equipo A"
+            width="50"
+            height="30"
+          />
+        </td>
+        <td>9</td>
+        <td>3</td>
+        <td>8</td>
+        <td>2</td>
+        <td>
+          <button onclick="mostrarDetalles('detalles1')">Ver Más</button>
+     
+          </button>
+        </td>
+      </tr>
+      <tr id="detalles1" style="display: none;">
+        <td colspan="2">Detalles del Elemento 1: Esto es un ejemplo de detalles.</td>
+    </tr>
+      <tr>
+        <td>2</td>
+        <td>Argentina</td>
+        <td>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png"
+            alt="Bandera del Equipo A"
+            width="50"
+            height="30"
+          />
+        </td>
+        <td>6</td>
+        <td>3</td>
+        <td>5</td>
+        <td>3</td>
+        <td><button onclick="mostrarDetalles(2)">Ver Más</button></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Ecuador</td>
+        <td>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Flag_of_Ecuador_%281900%E2%80%932009%29.svg/2560px-Flag_of_Ecuador_%281900%E2%80%932009%29.svg.png"
+            alt="Bandera del Equipo A"
+            width="50"
+            height="30"
+          />
+        </td>
+        <td>3</td>
+        <td>3</td>
+        <td>4</td>
+        <td>6</td>
+        <td><button onclick="mostrarDetalles(3)">Ver Más</button></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Colombia</td>
+        <td>
+          <img
+            src="https://i.pinimg.com/564x/55/cf/08/55cf080c74c4ed02aaaba10fab30297b.jpg"
+            alt="Bandera del Equipo A"
+            width="50"
+            height="30"
+          />
+        </td>
+        <td>0</td>
+        <td>3</td>
+        <td>2</td>
+        <td>7</td>
+        <td><button onclick="mostrarDetalles(4)">Ver Más</button></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Uruguay</td>
+        <td>
+          <img
+            src="https://media.istockphoto.com/id/652754092/es/foto/bandera-nacional-de-uruguay.jpg?s=612x612&w=0&k=20&c=F6BF69kXnq-TI1DJv_AZfIV9fErqBQQGfLiLpqLMeqs="
+            alt="Bandera del Equipo A"
+            width="50"
+            height="30"
+          />
+        </td>
+        <td>0</td>
+        <td>3</td>
+        <td>2</td>
+        <td>7</td>
+        <td><button onclick="mostrarDetalles(5)">Ver Más</button></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Chile</td>
+        <td>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/2560px-Flag_of_Chile.svg.png"
+            alt="Bandera del Equipo A"
+            width="50"
+            height="30"
+          />
+        </td>
+        <td>0</td>
+        <td>3</td>
+        <td>2</td>
+        <td>7</td>
+        <td><button onclick="mostrarDetalles(6)">Ver Más</button></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Perú</td>
+        <td>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_Peru_%281884%E2%80%931950%29.svg/2560px-Flag_of_Peru_%281884%E2%80%931950%29.svg.png"
+            alt="Bandera del Equipo A"
+            width="50"
+            height="30"
+          />
+        </td>
+        <td>0</td>
+        <td>3</td>
+        <td>2</td>
+        <td>7</td>
+        <td><button onclick="mostrarDetalles(7)">Ver Más</button></td>
+      </tr>
+    </table>
+    <script src="scripts.js">
+  </body>
+</html>
